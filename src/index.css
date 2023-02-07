@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.play_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.play_conatiner{
+  border: 2px solid gold;
+  background-color: #0077ff;
+  /* background:linear-gradient(#010131,#280752,#010131); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 6px;
+  padding: 2rem 3rem;
+}
+.play_conatiner div{
+  width: 100%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.game_name h1{
+  color: rgb(0, 5, 73);
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+input{
+  width: 100%;
+  padding: .5rem;
+  font-size: 2rem;
+  background: rgb(0, 8, 85);
+  color: rgb(251, 255, 4);
+  text-align: center;
+  outline: none;
+  font-family: 'Play', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: 2px solid goldenrod;
+  border-radius: 6px;
+  margin: 1rem 0rem;
+}
+.start_btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.start_btn button{
+  font-size: 2rem;
+  padding: .5rem 1rem;
+  background-color: #daa520;
+  color: rgb(1, 10, 38);
+  font-weight: 800;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px !important;
+}
+a{
+  color: rgb(1, 10, 38);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
